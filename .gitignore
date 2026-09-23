@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables / API keys
+.env
+.env.*
+!.env.example
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Generated audio/video files
+*.mp3
+*.wav
+*.mp4
+*.m4a
+*.avi
+*.mov
+
+# Generated transcripts / outputs
+outputs/
+transcripts/
+temp/
+tmp/
+
+# Vector database
+chroma_db/
+
+# Model/cache files
+*.pt
+*.pth
+*.onnx
+*.h5
+*.keras
+
+# Python build files
+build/
+dist/
+*.egg-info/
