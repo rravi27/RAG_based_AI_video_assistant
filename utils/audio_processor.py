@@ -34,6 +34,3 @@ def convert_to_wav(input_path: str) -> str:
     audio.export(output_path, format="wav")
     return output_path
 
-data = download_youtube_audio("https://youtu.be/GOnzOuD2BIU")
-
-print(convert_to_wav(data))
