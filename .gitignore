@@ -49,6 +49,7 @@ outputs/
 transcripts/
 temp/
 tmp/
+downloads/
 
 # Vector database
 chroma_db/
